@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+}
+nav{
+    width: 60%;
+}
+hl{
+    width: 20%;
+    font-weight: normal;
+}
+
+.BigImage{
+    width: 95vw;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.container{
+    display: flex;
+}
+.container>div{
+    text-align: center;
+}
+.container>div>p{
+    font-size: x-large;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    height: 4rem;
+    font-size: x-large;
+}
+footer>p{
+    padding: 1rem;
+}
+
+li:hover{
+    color: red;
+    cursor: pointer;
+}
